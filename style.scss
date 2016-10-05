@@ -1,0 +1,58 @@
+$bg-color: #2c3e50;
+$hover-color: #16a885;
+$text-color: #ffffff;
+
+nav{
+
+    ul{
+        background: $bg-color;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li{
+        display: inline-block;
+    }
+
+    a{
+        color: $text-color;
+        display: inline-block;
+        padding: 20px 30px;
+        text-decoration: none;
+        font-size: 24px;
+    }
+    a:hover{
+        background: $hover-color;
+    }
+
+}
+@import"image";
+
+p{
+    font-size: 24px;
+}
+
+.row{
+    width: 30%;
+}
+.column ul{
+    width: 70%;
+text-decoration: none;
+position: fixed;
+      height: 65%;
+      flex-direction: column;
+      padding-left: 10%; 
+}
+.column a {
+      color: black; }
+}
+footer{
+    background-color: D4D0BC;
+    width: 100%;
+    height:100px;
+}
+
+.soc{
+    display: inline;
+
+}
